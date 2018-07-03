@@ -1,0 +1,13 @@
+{
+	"res_code":0,
+	"res_error":"",
+	"res_body": {
+		"list" : [
+				{ "img":"/img/indeximg/_-1_2_.jpg", "img1":"/img/indeximg/4jbyz.png", "title":"RAY 蚕丝面膜 4盒", "price":"¥255.00" ,"price1":"JP¥4223.00", "src":"香港七号仓" ,"form":"/img/indeximg/form.png"},
+				{ "img":"/img/indeximg/fbanzcos10010076x2_2.jpg","img1":"/img/indeximg/4jbyz.png", "title":"RAY 蚕丝面膜 4盒", "price":"¥255.00" ,"price1":"JP¥4223.00", "src":"香港七号仓" ,"form":"/img/indeximg/form.png"},
+				{ "img":"/img/indeximg/fbacncos10060003.jpg","img1":"/img/indeximg/4jbyz.png", "title":"RAY 蚕丝面膜 4盒", "price":"¥255.00" ,"price1":"JP¥4223.00", "src":"香港七号仓" ,"form":"/img/indeximg/form.png"},
+				{ "img":"/img/indeximg/fbanzbbya0010022x3.jpg", "img1":"/img/indeximg/4jbyz.png","title":"RAY 蚕丝面膜 4盒", "price":"¥255.00" ,"price1":"JP¥4223.00", "src":"香港七号仓" ,"form":"/img/indeximg/form.png"},
+				{ "img":"/img/indeximg/file_67_36.jpg", "img1":"/img/indeximg/4jbyz.png","title":"RAY 蚕丝面膜 4盒", "price":"¥255.00" ,"price1":"JP¥4223.00", "src":"香港七号仓" ,"form":"/img/indeximg/form.png"}
+		]
+	}
+}

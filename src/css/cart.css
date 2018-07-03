@@ -1,0 +1,7 @@
+header .topnav .listnav .leftnav .lnav {
+  display: none;
+}
+
+header .topnav .listnav .leftnav:hover .lnav {
+  display: block;
+}

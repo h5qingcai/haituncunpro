@@ -1,0 +1,509 @@
+.banner {
+  height: 420px;
+  background: #e3eef4;
+}
+
+.banner .container {
+  height: 420px;
+  position: relative;
+}
+
+.banner .container #lunbotu {
+  width: 770px;
+  height: 420px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  left: 220px;
+}
+
+.banner .container #lunbotu ul li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.banner .container #lunbotu .point {
+  height: 14px;
+  width: 100px;
+  position: absolute;
+  bottom: 20px;
+  left: 40%;
+  z-index: 10;
+}
+
+.banner .container #lunbotu .point i {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: 3px solid white;
+  border-radius: 1em;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.banner .container #lunbotu .point .active {
+  background: white;
+}
+
+.banner .container #lunbotu .page {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 770px;
+  height: 60px;
+}
+
+.banner .container #lunbotu .page a {
+  display: block;
+  width: 38px;
+  height: 60px;
+  background: url(../img/indeximg/icon-small.png) no-repeat;
+}
+
+.banner .container #lunbotu .page #prev {
+  float: left;
+  background-position: -89px 0px;
+  transition: all .3s;
+}
+
+.banner .container #lunbotu .page #nest {
+  float: right;
+  background-position: -90px -60px;
+  transition: all .3s;
+}
+
+.banner .container .ce {
+  width: 200px;
+  height: 422px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.banner .container .ce a {
+  display: block;
+  width: 220px;
+  height: 210px;
+}
+
+.footbar {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background: url(../img/indeximg/index-foot-app-2.png) no-repeat bottom center;
+}
+
+.footbar a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.footbar #close {
+  display: block;
+  position: absolute;
+  width: 143px;
+  height: 29px;
+  top: 0;
+  right: 208px;
+  cursor: pointer;
+}
+
+.caption {
+  display: block;
+  width: 240px;
+  height: 25px;
+  float: left;
+  background: url(../img/indeximg/subtitle.png) no-repeat;
+  margin-top: 38px;
+}
+
+h2 {
+  height: 75px;
+}
+
+.gengduo {
+  float: right;
+  font-size: 12px;
+  padding-right: 21px;
+  margin-top: 47px;
+  color: #333333;
+  background: url(../img/indeximg/gengduo.png) no-repeat right center;
+}
+
+.gengduo:hover {
+  text-decoration: underline;
+}
+
+.sales {
+  height: 300px;
+}
+
+.sales #saleslist {
+  width: 990px;
+  height: 300px;
+  justify-content: space-around;
+  float: left;
+}
+
+.sales #saleslist a {
+  float: left;
+  width: 195px;
+  height: 300px;
+}
+
+.sales a {
+  float: right;
+  width: 200px;
+  height: 300px;
+}
+
+.global {
+  height: 1030px;
+  background: url(../img/indeximg/bg-global.jpg) no-repeat center center;
+}
+
+.global .country {
+  height: 425px;
+}
+
+.global .country h2 {
+  height: 75px;
+}
+
+.global .country .mall {
+  height: 350px;
+}
+
+.global .country .mall .japan {
+  float: left;
+  width: 230px;
+  height: 350px;
+}
+
+.global .country .mall .mall-list {
+  float: right;
+  width: 950px;
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.global .country .mall .mall-list a {
+  display: block;
+  width: 310px;
+  height: 170px;
+}
+
+.global .country .mall .mall-list .rowp {
+  margin-top: 6px;
+}
+
+.global .globalseller {
+  height: 578px;
+}
+
+.global .globalseller h2 .nb2 {
+  background-position-y: -25px;
+}
+
+.global .globalseller .seller {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.global .globalseller .seller .modl {
+  width: 390px;
+  height: 500px;
+  background: white;
+}
+
+.global .globalseller .seller .modl .tou {
+  display: block;
+  width: 390px;
+  height: 146px;
+}
+
+.global .globalseller .seller .modl .tou img {
+  width: 390px;
+  height: 146px;
+}
+
+.global .globalseller .seller .modl .shop {
+  width: 390px;
+  height: 34px;
+  background: #0086D4;
+}
+
+.global .globalseller .seller .modl dl {
+  width: 390px;
+  height: 62px;
+  margin-top: 15px;
+  padding: 0 20px;
+}
+
+.global .globalseller .seller .modl dl dt {
+  float: left;
+  margin-right: 15px;
+}
+
+.global .globalseller .seller .modl dl dt img {
+  width: 100px;
+  height: 46px;
+  margin-top: 8px;
+}
+
+.global .globalseller .seller .modl dl dd {
+  font-size: 12px;
+  width: 235px;
+  height: 62px;
+  float: right;
+  line-height: 22px;
+  color: #666666;
+}
+
+.global .globalseller .seller .modl ul {
+  width: 390px;
+  height: 244px;
+  padding: 15px;
+}
+
+.global .globalseller .seller .modl ul li {
+  float: left;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.global .globalseller .seller .modl ul li img {
+  width: 140px;
+  height: 140px;
+}
+
+.global .globalseller .seller .modl ul li p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.global .globalseller .seller .modl ul li span {
+  font-size: 13px;
+  font-weight: 600;
+  color: red;
+  margin-top: 10px;
+}
+
+.global .globalseller .seller .modl ul li span i {
+  font-style: normal;
+  padding-left: 5px;
+  font-weight: 100;
+  font-size: 12px;
+  color: #b2b2b2;
+}
+
+.bigbox {
+  height: 3735px;
+  background: #f5f5f5;
+}
+
+.bigbox .lei {
+  height: 555px;
+}
+
+.bigbox .lei .hee {
+  height: 480px;
+}
+
+.bigbox .lei .hee .link {
+  width: 300px;
+  float: left;
+}
+
+.bigbox .lei .hee .link a {
+  display: block;
+  width: 300px;
+  height: 480px;
+}
+
+.bigbox .lei .hee .goods {
+  background: white;
+  width: 651px;
+  height: 480px;
+  float: left;
+}
+
+.bigbox .lei .hee .goods .right {
+  width: 217px;
+  height: 240px;
+  float: left;
+  border-right: 1px solid #f0f0f0;
+}
+
+.bigbox .lei .hee .goods .right dt {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+}
+
+.bigbox .lei .hee .goods .right dt img {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+}
+
+.bigbox .lei .hee .goods .right dd {
+  text-align: center;
+}
+
+.bigbox .lei .hee .goods .right dd h6 {
+  font-size: 14px;
+  color: #333;
+  line-height: 22px;
+  height: 22px;
+  margin: 10px 0 5px;
+}
+
+.bigbox .lei .hee .goods .right dd span {
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+}
+
+.bigbox .lei .hee .goods .right dd span i {
+  font-size: 12px;
+  color: #999;
+  font-style: normal;
+  margin-left: 5px;
+  font-weight: 100;
+}
+
+.bigbox .lei .hee .goods .top {
+  width: 651px;
+  height: 241px;
+  border-top: 1px solid  red;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.bigbox .lei .hee .goods .top .left {
+  float: left;
+  width: 434px;
+  height: 240px;
+  padding: 19px 30px 19px 15px;
+  border-right: 1px solid #f0f0f0;
+}
+
+.bigbox .lei .hee .goods .top .left dt {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 5px;
+}
+
+.bigbox .lei .hee .goods .top .left dt img {
+  width: 200px;
+  height: 200px;
+}
+
+.bigbox .lei .hee .goods .top .left dd {
+  width: 183px;
+  height: 99px;
+  margin: 50px 0 0 205px;
+}
+
+.bigbox .lei .hee .goods .top .left dd h5 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 22px;
+}
+
+.bigbox .lei .hee .goods .top .left dd p {
+  color: #999;
+  font-size: 14px;
+  margin: 5px 0 10px;
+  width: 183px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.bigbox .lei .hee .goods .top .left dd span {
+  font-weight: 600;
+  color: red;
+}
+
+.bigbox .lei .hee .goods .top .left dd span i {
+  font-size: 12px;
+  color: #999;
+  font-style: normal;
+  margin-left: 5px;
+  font-weight: 100;
+}
+
+.bigbox .lei .hee .listcarousel {
+  width: 239px;
+  height: 480px;
+  float: right;
+  background: white;
+  border-top: 3px solid red;
+}
+
+.bigbox .nb3 {
+  background-position-y: -50px;
+}
+
+.bigbox .nb4 {
+  background-position-y: -98px;
+}
+
+.bigbox .nb5 {
+  background-position-y: -125px;
+}
+
+.bigbox .nb6 {
+  background-position-y: -147px;
+}
+
+.bigbox .nb7 {
+  background-position-y: -175px;
+}
+
+.bigbox .nb8 {
+  background-position-y: -198px;
+}
+
+.bigbox .nb9 {
+  background-position-y: -225px;
+}
+
+.keymsg {
+  height: 100px;
+  background: #009de0 url(../img/indeximg/keymsg.png) no-repeat center center;
+}
+
+.keymsg .container {
+  height: 100px;
+}
+
+.keymsg .container a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.ding {
+  width: 100%;
+  height: 50px;
+  background: #1c6dae;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 101;
+  transform: translateZ(0);
+}

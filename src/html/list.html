@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="../img/indeximg/bitbug_favicon.ico" type="image/x-icon"/>
+	<title>【洗发护发】洗发护发海淘-海豚村</title>
+	
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/headerandfooter.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/list.css"/>
+</head>
+<body>
+	<header></header>	
+	<div class="main">
+		<div class="container">
+			<div class="logolist">
+				<h3>海淘品牌筛选</h3>
+				<ul>
+					<li>
+						<a href="login.html"><img src="../img/list/GRHL_01160513.jpg" /></a>
+						<a href="login.html"><img src="../img/list/GRHL_02160513.jpg" /></a>
+						<a href="login.html"><img src="../img/list/GRHL_03170314.jpg" /></a>
+						<a href="login.html"><img src="../img/list/GRHL_04170314.jpg" ></a>
+						<a href="login.html"><img src="../img/list/GRHL_05170314.jpg" ></a>
+						<a href="login.html"><img src="../img/list/GRHL_06170314.jpg" ></a>
+						<a href="login.html"><img src="../img/list/MRYZ_01160513.jpg" ></a>
+						<a href="login.html"><img src="../img/list/MRYZ_02160513.jpg" ></a>
+						<a href="login.html"><img src="../img/list/MRYZ_02160513.jpg" ></a>
+						<a href="login.html"><img src="../img/list/MRYZ_02160513.jpg" ></a>
+					</li>
+					<li>
+						<a href="login.html"><img src="../img/list/MRYZ_03160513.jpg" ></a>
+						<a href="login.html"><img src="../img/list/MRYZ_03160513.jpg" ></a>
+						<a href="login.html"><img src="../img/list/MRYZ_04160513.jpg" ></a>
+						<a href="login.html"><img src="../img/list/MRYZ_04160513.jpg" ></a>
+						<a href="login.html"><img src="../img/list/MRYZ_05160513.jpg" ></a>
+						<a href="login.html"><img src="../img/list/MRYZ_05160513.jpg" ></a>
+						<a href="login.html"><img src="../img/list/MRYZ_06160513.jpg" ></a>
+						<a href="login.html"><img src="../img/list/YYBJ_02160513.jpg" ></a>
+						<a href="login.html"><img src="../img/list/MRYZ_05160513.jpg" ></a>
+						<a href="login.html"><img src="../img/list/MRYZ_05160513.jpg" ></a>
+					</li>
+					<li>
+						<a href="login.html"><img src="../img/list/YYBJ_06160513.jpg" ></a>
+						<a href="login.html"><img src="../img/indeximg/YYBJ_03160513.jpg" ></a>
+						<a href="login.html"><img src="../img/list/MYYP_01160513.jpg" ></a>
+						<a href="login.html"><img src="../img/list/MYYP_03160513.jpg" ></a>
+						<a href="login.html"><img src="../img/list/MYYP_06160513.jpg" ></a>
+						<a href="login.html"><img src="../img/list/MYYP_05160513.jpg" ></a>
+					</li>
+				</ul>
+				<p><a href="javascrpt:void(0)" id="prev"></a><a href="javascrpt:void(0)"  id="next"></a></p>
+			</div>
+			<div class="main-list"></div>
+			
+		</div>
+	</div>
+	<script id="list_temp" type="text/html">
+		{{each list products}}
+		     <ul>
+				 {{each products prod index}}
+
+		      	<li class="hua">
+					  <div class="product" data-id="{{prod.id}}">
+						<a href="dateil.html" class="proimgs"><img src="{{prod.zimg}}" class="proimg" >
+							<i class="icon"><img src="{{prod.fu}}" ></i>
+						</a>
+						<p class="price">￥{{prod.price}}.00</p>
+						<h2 class="product-name">{{prod.titie}}<span>{{prod.te}}</span></h2>
+						<button type="button" class="btn-cart">加入购物车</button>
+						<div class="city">
+							<span><img src="../img/list/list-shop-icon.png" ><a href="dateil.html" class="cang">{{prod.cang}}</a></span>
+							<img src="../img/indeximg/form.png" >
+						</div>
+					</div>
+				</li>
+		      	{{/each}}
+          </ul>
+			{{/each}}		
+	</script>
+    <footer></footer>
+	<script src="../lib/requirejs/require.js" data-main="../js/list"></script>
+</body>
+</html>

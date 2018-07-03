@@ -1,0 +1,205 @@
+header .topnav .listnav .leftnav .lnav {
+  display: none;
+}
+
+header .topnav .listnav .leftnav:hover .lnav {
+  display: block;
+}
+
+.main {
+  background: #f6f6f6;
+  width: 100%;
+  height: 100%;
+}
+
+.main .container {
+  padding: 20px  0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .container .logolist {
+  display: inline-block;
+  width: 220px;
+  height: 440px;
+  border: 1px solid #e6e6e6;
+  background: white;
+}
+
+.main .container .logolist h3 {
+  width: 218px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+  color: #666666;
+  padding-left: 10px;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.main .container .logolist ul {
+  width: 190px;
+  height: 346px;
+  margin: 13px auto 0;
+  position: relative;
+}
+
+.main .container .logolist ul li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 190px;
+  height: 346px;
+  border-top: 1px solid #E6E6E6;
+  border-left: 1px solid #E6E6E6;
+  float: left;
+}
+
+.main .container .logolist ul li a {
+  float: left;
+  display: block;
+  width: 93px;
+  height: 68px;
+  border-bottom: 1px solid #E6E6E6;
+  border-right: 1px solid #E6E6E6;
+}
+
+.main .container .logolist ul li a img {
+  display: block;
+  width: 92px;
+  height: 47px;
+  margin-top: 10px;
+}
+
+.main .container .logolist p {
+  height: 43px;
+  padding: 0 75px;
+}
+
+.main .container .logolist p a {
+  display: block;
+  width: 8px;
+  height: 12px;
+  background: url(../img/list/list_brand_ctrl.png) no-repeat;
+  margin-top: 14px;
+}
+
+.main .container .logolist p #prev {
+  float: left;
+}
+
+.main .container .logolist p #next {
+  float: right;
+  background-position-x: -8px;
+}
+
+.main .container .main-list {
+  display: inline-block;
+  width: 960px;
+}
+
+.main .container .main-list ul {
+  width: 960px;
+  height: 373px;
+}
+
+.main .container .main-list ul li {
+  float: left;
+  width: 229px;
+  height: 358px;
+  margin: 15px 0 0 11px;
+  background: #fff;
+  position: relative;
+  border: 1px solid #e6e6e6;
+}
+
+.main .container .main-list ul li .proimgs {
+  display: block;
+  width: 230px;
+  height: 219px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.main .container .main-list ul li .proimgs .icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.main .container .main-list ul li .price {
+  height: 36px;
+  line-height: 36px;
+  overflow: hidden;
+  padding: 0 9px;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.9);
+  color: #f33;
+  position: relative;
+  z-index: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.main .container .main-list ul li .product-name {
+  height: 60px;
+  line-height: 20px;
+  overflow: hidden;
+  padding: 0 10px;
+  background: #fff;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.main .container .main-list ul li .product-name span {
+  color: red;
+}
+
+.main .container .main-list ul li .btn-cart {
+  width: 208px;
+  height: 28px;
+  background: red;
+  color: white;
+  border: none;
+  outline: none;
+  display: none;
+  position: absolute;
+  bottom: 41px;
+  left: 11px;
+}
+
+.main .container .main-list ul li .city {
+  width: 230px;
+  position: absolute;
+  bottom: 9px;
+}
+
+.main .container .main-list ul li .city span {
+  margin-left: 10px;
+  font-size: 13px;
+  float: left;
+}
+
+.main .container .main-list ul li .city span img {
+  margin-top: 1px;
+  position: absolute;
+}
+
+.main .container .main-list ul li .city span a {
+  line-height: 17px;
+  margin-left: 19px;
+}
+
+.main .container .main-list ul li .city img {
+  float: right;
+  margin-right: 10px;
+}
+
+.main .container .main-list ul li:hover {
+  border: 1px solid red;
+}
+
+.main .container .main-list ul li:hover .price {
+  margin-top: -35px;
+}

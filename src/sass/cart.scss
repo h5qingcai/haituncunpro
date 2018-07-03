@@ -1,0 +1,14 @@
+header{
+	.topnav{
+		.listnav{
+			.leftnav{
+				.lnav{
+					display: none;
+				}
+				&:hover .lnav{
+					display: block;
+				}
+			}
+		}
+	}
+}
